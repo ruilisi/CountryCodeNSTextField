@@ -8,16 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		D1E1AB9020DE217D0040D7A9 /* CountryCodeNSTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E1AB8E20DE217D0040D7A9 /* CountryCodeNSTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1E1AB9D20DE21900040D7A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1AB9C20DE21900040D7A9 /* AppDelegate.swift */; };
+		D1E1AB9F20DE21900040D7A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E1AB9E20DE21900040D7A9 /* Assets.xcassets */; };
+		D1E1ABA220DE21900040D7A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E1ABA020DE21900040D7A9 /* MainMenu.xib */; };
+		D1E1ABA920DE21980040D7A9 /* CountryCodeNSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1ABA820DE21980040D7A9 /* CountryCodeNSTextField.swift */; };
+		D1E1ABAB20DE21A00040D7A9 /* CountryCallingCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E1ABAA20DE21A00040D7A9 /* CountryCallingCodes.json */; };
+		D1E1ABAC20DE21CF0040D7A9 /* CountryCodeNSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1ABA820DE21980040D7A9 /* CountryCodeNSTextField.swift */; };
+		D1E1ABAD20DE21DB0040D7A9 /* CountryCallingCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E1ABAA20DE21A00040D7A9 /* CountryCallingCodes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1E1AB8B20DE217D0040D7A9 /* CountryCodeNSTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountryCodeNSTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E1AB8E20DE217D0040D7A9 /* CountryCodeNSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryCodeNSTextField.h; sourceTree = "<group>"; };
 		D1E1AB8F20DE217D0040D7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E1AB9A20DE218F0040D7A9 /* CountryCodeNSTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryCodeNSTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E1AB9C20DE21900040D7A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1E1AB9E20DE21900040D7A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1E1ABA120DE21900040D7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D1E1ABA320DE21900040D7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E1ABA420DE21910040D7A9 /* CountryCodeNSTextFieldDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CountryCodeNSTextFieldDemo.entitlements; sourceTree = "<group>"; };
+		D1E1ABA820DE21980040D7A9 /* CountryCodeNSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeNSTextField.swift; sourceTree = "<group>"; };
+		D1E1ABAA20DE21A00040D7A9 /* CountryCallingCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryCallingCodes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D1E1AB8720DE217D0040D7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1AB9720DE218F0040D7A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				D1E1AB8D20DE217D0040D7A9 /* CountryCodeNSTextField */,
+				D1E1AB9B20DE21900040D7A9 /* CountryCodeNSTextFieldDemo */,
 				D1E1AB8C20DE217D0040D7A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				D1E1AB8B20DE217D0040D7A9 /* CountryCodeNSTextField.framework */,
+				D1E1AB9A20DE218F0040D7A9 /* CountryCodeNSTextFieldDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +71,23 @@
 			isa = PBXGroup;
 			children = (
 				D1E1AB8E20DE217D0040D7A9 /* CountryCodeNSTextField.h */,
+				D1E1ABAA20DE21A00040D7A9 /* CountryCallingCodes.json */,
+				D1E1ABA820DE21980040D7A9 /* CountryCodeNSTextField.swift */,
 				D1E1AB8F20DE217D0040D7A9 /* Info.plist */,
 			);
 			path = CountryCodeNSTextField;
+			sourceTree = "<group>";
+		};
+		D1E1AB9B20DE21900040D7A9 /* CountryCodeNSTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1AB9C20DE21900040D7A9 /* AppDelegate.swift */,
+				D1E1AB9E20DE21900040D7A9 /* Assets.xcassets */,
+				D1E1ABA020DE21900040D7A9 /* MainMenu.xib */,
+				D1E1ABA320DE21900040D7A9 /* Info.plist */,
+				D1E1ABA420DE21910040D7A9 /* CountryCodeNSTextFieldDemo.entitlements */,
+			);
+			path = CountryCodeNSTextFieldDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +122,38 @@
 			productReference = D1E1AB8B20DE217D0040D7A9 /* CountryCodeNSTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D1E1AB9920DE218F0040D7A9 /* CountryCodeNSTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E1ABA520DE21910040D7A9 /* Build configuration list for PBXNativeTarget "CountryCodeNSTextFieldDemo" */;
+			buildPhases = (
+				D1E1AB9620DE218F0040D7A9 /* Sources */,
+				D1E1AB9720DE218F0040D7A9 /* Frameworks */,
+				D1E1AB9820DE218F0040D7A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountryCodeNSTextFieldDemo;
+			productName = CountryCodeNSTextFieldDemo;
+			productReference = D1E1AB9A20DE218F0040D7A9 /* CountryCodeNSTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D1E1AB8220DE217D0040D7A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Jiawei Li";
 				TargetAttributes = {
 					D1E1AB8A20DE217D0040D7A9 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					D1E1AB9920DE218F0040D7A9 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
@@ -104,6 +164,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D1E1AB8120DE217D0040D7A9;
 			productRefGroup = D1E1AB8C20DE217D0040D7A9 /* Products */;
@@ -111,6 +172,7 @@
 			projectRoot = "";
 			targets = (
 				D1E1AB8A20DE217D0040D7A9 /* CountryCodeNSTextField */,
+				D1E1AB9920DE218F0040D7A9 /* CountryCodeNSTextFieldDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +182,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E1ABAB20DE21A00040D7A9 /* CountryCallingCodes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1AB9820DE218F0040D7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E1AB9F20DE21900040D7A9 /* Assets.xcassets in Resources */,
+				D1E1ABA220DE21900040D7A9 /* MainMenu.xib in Resources */,
+				D1E1ABAD20DE21DB0040D7A9 /* CountryCallingCodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,10 +203,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E1ABA920DE21980040D7A9 /* CountryCodeNSTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1AB9620DE218F0040D7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E1ABAC20DE21CF0040D7A9 /* CountryCodeNSTextField.swift in Sources */,
+				D1E1AB9D20DE21900040D7A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1E1ABA020DE21900040D7A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E1ABA120DE21900040D7A9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D1E1AB9120DE217D0040D7A9 /* Debug */ = {
@@ -258,6 +352,7 @@
 		D1E1AB9420DE217D0040D7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -277,6 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Rallets.CountryCodeNSTextField;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -284,6 +380,7 @@
 		D1E1AB9520DE217D0040D7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -307,6 +404,44 @@
 			};
 			name = Release;
 		};
+		D1E1ABA620DE21910040D7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CountryCodeNSTextFieldDemo/CountryCodeNSTextFieldDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GX9HKAFEY8;
+				INFOPLIST_FILE = CountryCodeNSTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rallets.CountryCodeNSTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D1E1ABA720DE21910040D7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CountryCodeNSTextFieldDemo/CountryCodeNSTextFieldDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GX9HKAFEY8;
+				INFOPLIST_FILE = CountryCodeNSTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rallets.CountryCodeNSTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -324,6 +459,15 @@
 			buildConfigurations = (
 				D1E1AB9420DE217D0040D7A9 /* Debug */,
 				D1E1AB9520DE217D0040D7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E1ABA520DE21910040D7A9 /* Build configuration list for PBXNativeTarget "CountryCodeNSTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E1ABA620DE21910040D7A9 /* Debug */,
+				D1E1ABA720DE21910040D7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
