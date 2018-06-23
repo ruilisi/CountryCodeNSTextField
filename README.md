@@ -12,7 +12,9 @@ Note that CountryCodeNSTextField is built in Swift 4.1
 
 ## Usage
 * Create one NSTextField and set its class to `CountryCodeNSTextField`
-* Set default country code and you are done!
+* Set default country code (such as +86) and you are done!
+
+![alt text](https://raw.githubusercontent.com/paiyou-network/CountryCodeNSTextField/master/CountryCodeNSTextFieldDemo/Support/defaultCountryCode.png)
 
 ## License
 The MIT License (MIT)
