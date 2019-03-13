@@ -3,6 +3,11 @@ CountryCodeNSTextField subclasses NSTextfield for International Phone Calling Co
 
 ![alt text](https://raw.githubusercontent.com/paiyou-network/CountryCodeNSTextField/master/CountryCodeNSTextFieldDemo/Support/+86.png)
 
+>Another framwork for Mac OS you may interest in:
+[NSGradientView](https://github.com/paiyou-network/NSGradientView),
+[NSHoverableButton](https://github.com/paiyou-network/NSHoverableButton),
+[NSScrollSidebar](https://github.com/paiyou-network/NSScrollSideBar)
+
 ## Installation (CocoaPods)
 Add `CountryCodeNSTextField` to your Podfile:
 
